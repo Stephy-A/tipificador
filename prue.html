@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font/bootstrap-icons.scss" rel="stylesheet">
+        <link href="css/font/bootstrap-icons.json" rel="stylesheet">
+        <link href="css/font/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>Llamadas</title>
+        <link rel="icon" rel="stylesheet" href="images/icon.PNG">
+       <style type="text/css">
+		#premio, #triste{
+			display: none;
+		}
+	</style>
+      </head>
+<body>
+    	
+    <div class="dropdown">
+        
+		<button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+		  Dropdown button
+		</button>
+		<ul class="dropdown-menu">
+		  <li><a class="dropdown-item" href="javascript:void(0);" onclick="mostrarPremio();">Link 1</a></li>
+		  <li><a class="dropdown-item" href="#">Link 2</a></li>
+		  <li><a class="dropdown-item" href="#">Link 3</a></li>
+		</ul>
+	  </div>
+      
+
+	<div class="alert alert-danger alert-dismissible mt-3" id="premio" >
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure delectus amet optio repellat est ducimus corporis, at, sit voluptate officiis ipsa qui nemo sunt recusandae. Laudantium, modi? Fugit, animi vero.</p>
+        <a href="https://evertecgroup.sharepoint.com/sites/BLIBLITECA" target="_blank" class="alert-link">Script</a>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <div class="dropdown">
+        <button id="dLabel" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown trigger
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dLabel">
+          <li data-bs-toggle="modal" data-bs-target="#myModal">bcr</li>
+          <li>bct</li>
+        </ul>
+      </div>
+     <br>
+     <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+  Open modal
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="pru.js"></script>
+</body>
+</html>
